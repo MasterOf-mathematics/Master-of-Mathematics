@@ -15,7 +15,8 @@ Master of Mathematics is a free educational website designed to help students le
 The main goal of this website is to make mathematics easy and accessible for all students, especially those preparing for school exams and competitive exams.
 
 ## 🌐 Live Website
-https://mafiya2255.github.io/mathematicsofmaster/
+www.masterofmathematics.in
+masterofmathematics.in
 
 ## 📌 Technologies Used
 - HTML

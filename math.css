@@ -898,6 +898,23 @@ a {
 .foot-7{
     margin-top: 200px;
 }
+.table h1{
+    color:#fbfb51
+}
+table{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 5px;
+    border: solid rgb(34, 0, 255) 5px;
+    width:75%;
+    height: 450px;
+}
+table tr{
+   margin-top: 5px;
+}
+table tr td{
+    border: solid aqua 2px;
+}
 @media only screen and (max-width:430px) {
     body {
         flex-direction: column;
@@ -910,7 +927,7 @@ a {
         left: 0;
         /* Agar position absolute/fixed ho to left 0 */
         right: 0;
-        width: 100vw;
+        width: 100%;
         /* Full width */
         display: flex;
         flex-direction: column;
@@ -931,7 +948,7 @@ a {
 
     #navigation ul li {
 
-        width: 78px;
+        width: 20%;
         height: 35px;
         font-size: 12px;
         border-top-left-radius: 15px;
@@ -952,12 +969,12 @@ a {
         flex-direction: column;
         position: absolute;
         top: 0px;
-        width: 77px;
+        width: 97%;
         z-index: 99;
     }
 
     #navigation ul li ul li {
-        width: 70px;
+        width: 100%;
         height: 35px;
         margin-top: 0px;
         border: none;
@@ -965,6 +982,7 @@ a {
 
     #classes-submenu li {
         margin-bottom: 2px !important;
+        width: 78px
     }
 
     #navigation ul li ul li a {

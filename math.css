@@ -899,21 +899,37 @@ a {
     margin-top: 200px;
 }
 .table h1{
+    margin-top: 20px;
+    border-top:red 2px solid;
+    border-bottom: red 2px solid;
+    padding-left: 45px;
     color:#fbfb51
 }
 table{
-    margin-left: 20px;
+    margin-left: 40px;
+    
     margin-top: 15px;
     padding: 5px;
-    border: solid rgb(34, 0, 255) 5px;
+    border: none;
     width:75%;
     height: 450px;
 }
 table tr{
    margin-top: 5px;
+   padding:10px;
 }
 table tr td{
-    border: solid aqua 2px;
+    background: linear-gradient(45deg, aqua, blue);
+    padding: 10px;
+    border: none;
+    color:#ffff99;
+    transition: 0.5s;
+}
+table tr td:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: linear-gradient(45deg, blue, aqua);
+    color:#fbfb51
 }
 @media only screen and (max-width:430px) {
     body {

@@ -23,4 +23,4 @@ masterofmathematics.in
 - CSS
 
 ## 🙌 Author
-Created by Master of Mathematics
+Created by Aditya Prajapati

@@ -867,8 +867,38 @@ a {
     text-align: justify;
     font-family: Ebrima, 'sans-serif';
 }
+ .r h2{
+    color: #fbfb51;
+ }
+.r ul{
+    list-style-type: none;
+        margin-left: 10px;
+        color: white;
+}
+.r ul li{
+    padding: 8px;
+    color: white;
+    position: relative;
+    
+}
+.relation .r ul li::before{
+    content: "✔";
+    position: absolute;
+    left: -10px;
+    color: red;
+}
+.p {
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.p p{
+    color:white;
+    font-size: 16px;
+    font-family: Ebrima, 'sans-serif';
+}
 .relation p{
-    /* width: 300px; */
+    /* width: 300px; */ 
     color: white;
 }
 .foot-5{

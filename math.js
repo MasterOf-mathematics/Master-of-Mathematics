@@ -1,6 +1,7 @@
 const classesLink = document.getElementById('classes-link');
 const submenu = document.getElementById('classes-submenu');
 const navLinks = document.querySelectorAll('#navigation ul > li > a');
+const favicon = document.createElement("link");
 
 classesLink.addEventListener('click', function(e) {
     e.preventDefault();
@@ -27,3 +28,8 @@ document.querySelectorAll('.card').forEach(card => {
     this.querySelector('.card-inner').classList.toggle('flipped');
   });
 });
+
+favicon.rel = "icon";
+favicon.type = "image/png";
+favicon.href = "title logo.png"
+document.head.appendChild(favicon);

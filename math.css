@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth ;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -198,7 +200,7 @@ body {
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 200px;
+    margin-top: 20px;
     margin-left: 600px;
     grid-gap: 5px;
 }
@@ -245,10 +247,13 @@ body {
 }
 
 .card-front img {
-    width: 170px;
+    width: 140px;
     margin-top: 20px;
 }
-
+.card-front  p{
+    color:white;
+    font-size: 30px;
+}
 .card-front {
     background: linear-gradient(to right, aqua, blue);
 }
@@ -271,10 +276,13 @@ body {
 }
 
 .card-front-1 img {
-    width: 170px;
+    width: 140px;
     margin-top: 20px;
 }
-
+.card-front-1 p{
+    color: white;
+    font-size: 30px;
+}
 .card-front-1 {
     background: linear-gradient(to right, aqua, blue);
 }
@@ -929,24 +937,19 @@ a {
     margin-top: 200px;
 }
 .para-6{
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
 }
 .para-6 .imp-links{
     padding-bottom: 20px;
 }
-.para-6 .imp-links marquee{
-    font-size: 35px;
-    color:#fbfb51;
-    border-top:red 2px solid;
-    border-bottom: red 2px solid;
-}
 .para-6 .imp-links ul{
-    margin-left: 430px;
+    margin-left: 25%;
     background: linear-gradient(45deg, aqua, blue);
     list-style-type: none;
-    padding-left: 30px;
-    width: 270px;
+    justify-content: center;
+    width: max-content;
     height: 50px;
     align-items: center;
     border-top-left-radius: 15px;
@@ -967,11 +970,12 @@ a {
 .para-6 .imp-links ul li{
     width:100%;
     height:100%;
-     padding-top:10px;
+     padding:10px;
 }
 .para-6 .imp-links ul li a{
     width:100%;
     height:100%;
+    text-align: center;
     color: white;
     font-family: 'Ebrima', 'sans-serif';
     font-size: 17px;
@@ -1004,6 +1008,76 @@ a {
     color: white;
     font-family: 'Ebrima', 'sans-serif';
     font-size: 17px;
+}
+.dis {
+    display: flex;
+    flex-direction: column;
+}
+#board{
+    padding: 10px;
+}
+#class-7{
+   padding: 10px;
+}
+#class-8{
+    padding: 10px;
+    
+}
+#class-8 h3{
+    
+    width: 300px;
+  color: red;
+}
+#class-9{
+    padding:10px;
+}
+#class-9 h3{
+    width:300px;
+    color:red;
+}
+#class-10{
+    padding: 10px;
+}
+#class-10 ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+#class-10 ul li a:hover{
+    color: red;
+}
+#class-10 h3{
+    width:300px;
+     color:red;
+}
+#class-10 .trust-box h3{
+    width: 450px;
+}
+#class-11{
+    padding: 10px;
+}
+#class-11 h3{
+    color: red;
+    width: 300px;
+}
+#class-11 .trust-box h3{
+    width: 450px;
+}
+#class-12{
+    padding: 10px;
+}
+#class-12 ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+#class-12 ul li a:hover{
+    color: red;
+}
+#class-12 h3{
+    width: 300px;
+    color: red;
+}
+#class-12 .trust-box h3{
+    width: 450px;
 }
 .table h1{
     margin-top: 20px;
@@ -1156,11 +1230,11 @@ table tr td:hover{
     }
 
     .card-front img {
-        width: 137px
+        width: 122px;
     }
 
     .card-front-1 img {
-        width: 137px;
+        width: 122px;
     }
 
     .card-inner.flipped {
@@ -1490,6 +1564,12 @@ table tr td:hover{
         margin-top:750px;
     }
     .para-6 .imp-links ul{
-        margin-left:50px;
+        width: 85%;
+        margin-left: 25px;
+        height: max-content;
     }
+    .trust-box h3{
+        text-align: justify;
+        font-size: 22px;
+    } 
 }
